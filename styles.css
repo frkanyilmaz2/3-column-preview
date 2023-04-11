@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Inter&family=Lexend+Deca&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    width: 50%;
+     width: 920px;
+    height: 500px;
+}
+
+.column {
+    max-width: 307px;
+    padding: 1.5em 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.column img{
+    width: 64px;
+    height: 40px;
+}
+
+.column h3{
+    font-size: 40px;
+    color: #F2F2F2;
+    font-family: 700;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.column p{
+    font-family: 'Lexend Deca',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    gap: 1em;
+    color:white;
+}
+
+.buttons {
+    width: 75%;
+    padding: 1.25em;
+    margin: 1em 0;
+    border-radius: 25px;
+    border: none;
+    background-color: #F2F2F2;
+    font-size: 15px;
+    font-family: 'Lexend Deca',sans-serif;
+
+}
+
+.first-col{
+    background-color: #E28625;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px ;
+    
+}
+
+.first-col button{
+    color: #E28625;
+}
+
+.second-col{
+    background-color: #006971;
+}
+
+.second-col button{
+    color: #006971;
+}
+
+.third-col{
+    background-color: #004140;
+    border-top-right-radius: 15px ;
+    border-bottom-right-radius: 15px ;
+}
+
+.third-col button{
+    color: #004140;
+}
+
+.buttons:hover{
+    background-color: transparent;
+    border: 1px solid #f2f2f2;
+    color: #f2f2f2;
+    cursor: pointer;
+}
+
+@media screen and (max-width:720px) {
+
+    .main-container{
+
+       justify-content: center;
+    }
+    .container{
+        margin: 5em; 
+        flex-direction: column;
+        min-width: 327px;
+        max-width: 327px;
+        height: 100%;
+    }
+    .first-col{
+        border-radius: 0;
+        border-top-left-radius: 15px !important;
+        border-top-right-radius: 15px !important;
+    }
+
+    .third-col{
+        border-radius: 0;
+        border-bottom-left-radius: 15px !important;
+        border-bottom-right-radius: 15px !important;
+    }
+
+    .column h3{
+        font-size: 32px;
+    }
+
+    .column p{
+        font-size: 15px;
+    }
+    
+    .column button{
+        padding: 1em;
+        width: 50%;
+    }
+}
