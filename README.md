@@ -10,7 +10,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  
+
 ## Overview
 
 ### The challenge
@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/frkanyilmaz2/3-column-preview)
+- [Live Site URL](https://frkanyilmaz2.github.io/3-column-preview/)
 
 ## My process
 
